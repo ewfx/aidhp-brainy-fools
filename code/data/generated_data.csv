@@ -1,6 +1,6 @@
-pandas>=1.3.0
-numpy>=1.21.0
-scikit-learn>=1.0.0
-nltk>=3.6.0
-plotly>=5.0.0
-ipython>=7.0.0
+customer_id,name,gender,age,education,marital_status,num_children,state,income,credit_score,checking_balance,savings_balance,mortgage_balance,credit_card_balance,investment_balance,life_stage,products_used,feedback,digital_engagement_score,ecommerce_activity_score,debt_to_income,net_worth,segment_name,is_anomaly
+1001,James Smith,Male,42,Bachelor's Degree,Married,2,CA,85000.0,712,12750.0,127500.0,340000.0,6375.0,21250.0,established_family,"['checking', 'savings', 'mortgage', 'credit_card']","Excellent investment advisory services",68.4,9.2,4.08,-212500.0,Traditional Savers,False
+1002,Mary Johnson,Female,35,Master's Degree,Single,0,NY,112000.0,735,16800.0,168000.0,0.0,8400.0,56000.0,young_professional,"['checking', 'savings', 'investment', 'credit_card']","Love the new budgeting features in the app",72.1,11.6,0.08,224000.0,Digital Natives,False
+1003,Robert Williams,Male,58,Master's Degree,Married,1,TX,145000.0,689,21750.0,290000.0,580000.0,10875.0,725000.0,pre_retirement,"['checking', 'savings', 'mortgage', 'investment']","Mortgage payment process is confusing",65.8,8.4,4.76,362500.0,Affluent Investors,False
+1004,Jennifer Brown,Female,29,Associate Degree,Single,0,FL,68000.0,702,10200.0,68000.0,0.0,5100.0,0.0,single_professional,"['checking', 'savings', 'debit_card']","Website navigation is intuitive and easy",75.3,12.8,0.08,68000.0,High-Potential,False
+1005,David Garcia,Male,51,Professional Degree,Divorced,2,IL,183000.0,674,27450.0,366000.0,732000.0,13725.0,915000.0,pre_retirement,"['checking', 'savings', 'mortgage', 'investment', 'credit_card']","Credit card rewards could be better",63.2,7.1,4.09,457500.0,Affluent Investors,True
