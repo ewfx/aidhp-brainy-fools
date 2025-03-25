@@ -1,12 +1,32 @@
-from src.data_generation import generate_synthetic_banking_data
-from src.analytics import BankingCustomerAnalytics
-from src.dashboard import generate_dashboard
+"""
+Banking Customer Analytics Dashboard
 
-# Generate data
-bank_customers = generate_synthetic_banking_data(500)
+A comprehensive banking customer analytics system with:
+- Synthetic data generation
+- Customer segmentation 
+- Anomaly detection
+- Personalized recommendations
+- Interactive financial dashboard
+"""
 
-# Analyze data
-analytics = BankingCustomerAnalytics(bank_customers)
+from .data_generation import generate_synthetic_banking_data
+from .analytics import BankingCustomerAnalytics
+from .visualization import (
+    create_spending_profile,
+    create_financial_health_radar,
+    create_trend_projection
+)
+from .recommendations import BankingRecommendationEngine
+from .dashboard import generate_dashboard
 
-# Generate dashboard for customer 1001
-generate_dashboard(1001, bank_customers, analytics)
+__all__ = [
+    'generate_synthetic_banking_data',
+    'BankingCustomerAnalytics',
+    'create_spending_profile',
+    'create_financial_health_radar',
+    'create_trend_projection',
+    'BankingRecommendationEngine',
+    'generate_dashboard'
+]
+
+__version__ = '0.1.0'
