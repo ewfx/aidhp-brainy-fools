@@ -1,4 +1,4 @@
-# Banking Customer Analytics Dashboard
+# Customer Personalised Dashboard
 
 A comprehensive banking customer analytics system with synthetic data generation, customer segmentation, anomaly detection, and personalized recommendations.
 
